@@ -1,25 +1,31 @@
 package edu.icet.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Getter;
+import lombok.Setter;
 
-@Setter
-@Getter
+
+import java.time.LocalDateTime;
+
 @Entity
 @Table(name = "journals")
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@Getter
+@Setter
 public class Journal {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "journal_id")
 
-    private String content;
-    private String mood;
-
+    private Long journalId;
     @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)
+    @JoinColumn(name = "user_id")
     private User user;
+    @Column(columnDefinition = "TEXT")
+    private String content;
+    private String sentiment;
+    @Column(name = "sentiment_score")
+    private Float sentimentScore;
+    @Column(name = "created_at")
+    private LocalDateTime createdAt = LocalDateTime.now();
 }
+
