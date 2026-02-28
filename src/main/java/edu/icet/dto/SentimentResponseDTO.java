@@ -8,4 +8,5 @@ import lombok.Setter;
 public class SentimentResponseDTO {
     private String mood;
     private Double score;
+    private String confidence;
 }
