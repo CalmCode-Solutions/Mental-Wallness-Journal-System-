@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+ dev-kavinda
     <list default="true" id="87884025-4994-4087-ad5e-4ec949540240" name="Changes" comment="change to Journal.java file">
       <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/entity/Recommendation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
@@ -12,6 +13,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+
+    <list default="true" id="9d71aea9-06b8-4c1f-bbe6-16ce6a763b30" name="Changes" comment="added UserResponseDTO class">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/dto/JournalResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+dev
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,29 +34,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev-nisal" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;nisalmissaka&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/PasiSandeepa/Mental-Wallness-Journal-System-.git&quot;,
-    &quot;accountId&quot;: &quot;1a1f67da-cc44-44b5-aa0c-9677494583b4&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="3A9qVTcH0Z7c8PR0bBTOcifgGwW" />
+  <component name="ProjectId" id="3A9mgXZXqMQFM1FCU7LeW3H4wsB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+ dev-kavinda
     "Maven.Mental-Wallness-Journal-System [clean...].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,6 +72,18 @@
       <command value="mvn clean install" />
     </option>
   </component>
+
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "dev-pasindu",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+ dev
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.icet.Main" />
@@ -95,17 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Mental-Wallness-Journal-System-" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Mental-Wallness-Journal-System-" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -115,80 +107,34 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="87884025-4994-4087-ad5e-4ec949540240" name="Changes" comment="" />
-      <created>1772015158238</created>
+      <changelist id="9d71aea9-06b8-4c1f-bbe6-16ce6a763b30" name="Changes" comment="" />
+      <created>1772013280823</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1772015158238</updated>
+      <updated>1772013280823</updated>
     </task>
-    <task id="LOCAL-00001" summary="add a validation dependancy to pom file">
+    <task id="LOCAL-00001" summary="added UserResponseDTO class">
       <option name="closed" value="true" />
-      <created>1772024554712</created>
+      <created>1772217711580</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1772024554712</updated>
+      <updated>1772217711581</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added UserRegisterDTO file">
+    <task id="LOCAL-00002" summary="added UserResponseDTO class">
       <option name="closed" value="true" />
-      <created>1772024644103</created>
+      <created>1772217967990</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1772024644103</updated>
+      <updated>1772217967990</updated>
     </task>
-    <task id="LOCAL-00003" summary="create application.yml file and change dependencies">
-      <option name="closed" value="true" />
-      <created>1772117320808</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1772117320808</updated>
-    </task>
-    <task id="LOCAL-00004" summary="create Journal.java file">
-      <option name="closed" value="true" />
-      <created>1772118101508</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1772118101508</updated>
-    </task>
-    <task id="LOCAL-00005" summary="create SentimentResponseDTO file">
-      <option name="closed" value="true" />
-      <created>1772168676314</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1772168676314</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added setter and getter SentimentResponseDTO class">
-      <option name="closed" value="true" />
-      <created>1772169033214</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1772169033214</updated>
-    </task>
-    <task id="LOCAL-00007" summary="change to Journal.java file">
-      <option name="closed" value="true" />
-      <created>1772196400334</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1772196400334</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add a validation dependancy to pom file" />
-    <MESSAGE value="Added UserRegisterDTO file" />
-    <MESSAGE value="create application.yml file and change dependencies" />
-    <MESSAGE value="create Journal.java file" />
-    <MESSAGE value="create SentimentResponseDTO file" />
-    <MESSAGE value="Added setter and getter SentimentResponseDTO class" />
-    <MESSAGE value="change to Journal.java file" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to Journal.java file" />
+    <MESSAGE value="added UserResponseDTO class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added UserResponseDTO class" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
