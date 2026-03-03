@@ -12,6 +12,7 @@ target/
 *.iml
 *.ipr
 
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -35,4 +36,10 @@ build/
 .vscode/
 
 ### Mac OS ###
+ dev-kavinda
+.DS_Store
+
+
+
 .DS_Store".idea/" 
+ dev
