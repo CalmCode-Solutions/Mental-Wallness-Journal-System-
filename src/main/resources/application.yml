@@ -7,8 +7,4 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
- dev-kavinda
-    show-sql: true
 
-    show-sql: true
- dev
