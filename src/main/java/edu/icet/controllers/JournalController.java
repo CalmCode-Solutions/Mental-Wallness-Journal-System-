@@ -17,7 +17,7 @@ import java.util.List;
 
         private final JournalService journalService;
 
-        // 🔹 Save Journal
+
         @PostMapping
         public ResponseEntity<JournalResponseDTO> save(
                 @RequestBody JournalRequestDTO dto) {
@@ -25,7 +25,6 @@ import java.util.List;
             return ResponseEntity.ok(journalService.saveJournal(dto));
         }
 
-        // 🔹 Get Journals By User
         @GetMapping("/{userId}")
         public ResponseEntity<List<JournalResponseDTO>> getUserJournals(
                 @PathVariable Long userId) {
